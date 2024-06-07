@@ -1,6 +1,7 @@
 .portfolio{
-    width:50vw;
-    height: auto;
+    width: 50vw;
+    min-height: 80vh;
+    height: fit-content;
     background-color: #1E1E1F;
     border-radius: 1rem;
 }
