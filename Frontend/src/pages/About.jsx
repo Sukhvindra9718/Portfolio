@@ -30,7 +30,9 @@ function About() {
             <img src="./assets/react.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
+              <div className="Worktitle">
               <h4>Web Design</h4>
+              </div>
               <p>The most modern and high-quality design made at a professional level.</p>
             </div>
           </div>
@@ -39,7 +41,9 @@ function About() {
             <img src="./assets/react.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
+            <div className="Worktitle">
               <h4>Web Design</h4>
+              </div>
               <p>The most modern and high-quality design made at a professional level.</p>
             </div>
           </div>
@@ -48,7 +52,9 @@ function About() {
             <img src="/assets/react.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
+            <div className="Worktitle">
               <h4>Web Design</h4>
+              </div>
               <p>The most modern and high-quality design made at a professional level.</p>
             </div>
           </div>
@@ -57,7 +63,9 @@ function About() {
             <img src="./assets/react.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
+            <div className="Worktitle">
               <h4>Web Design</h4>
+              </div>
               <p>The most modern and high-quality design made at a professional level.</p>
             </div>
           </div>
