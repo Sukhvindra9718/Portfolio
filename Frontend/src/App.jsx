@@ -6,7 +6,7 @@ import Portfolio from "./pages/Portfolio"
 
 
 function App() {
-  const [page,setPage] = React.useState("portfolio")
+  const [page,setPage] = React.useState("about")
   return (
     <div className="app">
       <Sidebar />
