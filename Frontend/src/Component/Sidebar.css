@@ -1,0 +1,119 @@
+.sidebar {
+  background-color: #1e1e1f;
+  border-radius: 20px;
+
+  height: 80vh;
+  width: 15vw;
+  padding: 30px;
+  & .sidebar-info {
+    height: 40vh;
+    position: relative;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  & .avatar-box {
+    width: 10vw;
+    background: #333334;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  & .title {
+    background-color: #2b2b2c;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 8px;
+    font-size: 14px;
+    margin: 0;
+    color: aliceblue;
+  }
+}
+.info-content {
+  & .name {
+    letter-spacing: -0.25px;
+    margin: 0;
+    color: aliceblue;
+  }
+}
+.seprator {
+  width: 100%;
+  height: 1px;
+  background: #383838;
+  margin: 32px 0;
+}
+
+.contacts-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.contact-item {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-info {
+  max-width: calc(100% - 46px);
+  width: calc(100% - 46px);
+}
+.contact-info a {
+  text-decoration: none;
+}
+.contact-title {
+  color: lightgray;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.contact-info :is(.contact-link, time, address) {
+  color: whitesmoke;
+  font-size: 15px;
+}
+.contact-info address {
+  font-style: normal;
+}
+
+.icon-box {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #ffdb70;
+  box-shadow: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
+  background: linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
+  z-index: 1;
+}
+
+.icon-box::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: #202022;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.icon-box ion-icon {
+  --ionicon-stroke-width: 35px;
+}
