@@ -1,9 +1,9 @@
 .sidebar {
   background-color: #1e1e1f;
   border-radius: 20px;
-  margin-top: 3rem;
+
   height: 80vh;
-  width: 12vw;
+  width: 15vw;
   padding: 30px;
   & .sidebar-info {
     height: 40vh;

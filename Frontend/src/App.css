@@ -1,13 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-:root{
+:root {
   --white-1: #fff;
-  --white-2:#fafafa;
+  --white-2: #fafafa;
   --black-bg-1: #121212;
-  --black-bg-2: #1E1E1F;
+  --black-bg-2: #1e1e1f;
   --text-secondary: #d6d6d6;
   --text-secondary-hover: #d6d6d6b3;
   --fs-1: 32px;
@@ -19,15 +19,14 @@
   --fs-8: 12px;
   --button-bg: #ffdb70;
 }
-body{
+body {
   background-color: #121212;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.app{
+.app {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 5rem;
-  padding: 5rem;
+  gap: 2rem;
+  padding: 3rem;
 }
