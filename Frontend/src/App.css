@@ -28,6 +28,5 @@ body {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding: 3rem;
-  height: 100vh;
+  margin: 5rem;
 }
