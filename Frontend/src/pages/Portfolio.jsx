@@ -19,7 +19,7 @@ const portfolioData = [{
     img: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-3.jpg"
 }, {
     industry: "Finance",
-    category: "Web development",
+    category: "Applications",
     img: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg"
 },
 {
@@ -33,7 +33,7 @@ const portfolioData = [{
     img: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-3.jpg"
 }, {
     industry: "Finance",
-    category: "Web development",
+    category: "Applications",
     img: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg"
 },
 {
@@ -54,15 +54,15 @@ function Portfolio() {
         <main className='portfolio'>
             <section className='category-header'>
                 <ul>
-                    <li><a href="" style={category === "All" ? {color:"#ffdb70"}:{}}>All</a></li>
-                    <li><a href="">Web design</a></li>
-                    <li><a href="">Applications</a></li>
-                    <li><a href="">Web development</a></li>
+                    <li className={category === "All" ? 'active-category':'non-active-category'} onClick={()=>setCategory("All")}>All</li>
+                    <li className={category === "Web design" ? 'active-category':'non-active-category'} onClick={()=>setCategory("Web design")}>Web design</li>
+                    <li className={category === "Applications" ? 'active-category':'non-active-category'} onClick={()=>setCategory("Applications")}>Applications</li>
+                    <li className={category === "Web development" ? 'active-category':'non-active-category'} onClick={()=>setCategory("Web development")}>Web development</li>
                 </ul>
             </section>
             <section className='portfolio-container'>
                 {portfolioData.map((data, index) => (
-                    <PortfolioCard key={index} data={data} />
+                    (category === data.category || category === "All") && <PortfolioCard key={index} data={data} />
                 ))
                 }
             </section>

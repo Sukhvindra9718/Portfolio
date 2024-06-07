@@ -1,6 +1,7 @@
 .portfolio{
-    width:70vw;
-    height: auto;
+    width: 50vw;
+    min-height: 80vh;
+    height: fit-content;
     background-color: #1E1E1F;
     border-radius: 1rem;
 }
@@ -11,17 +12,20 @@
     padding: 1rem 2rem;
     gap: 1rem;
 }
-.category-header ul li {
+.category-header ul .non-active-category {
     list-style: none;
     cursor: pointer;
-}
-.category-header ul li a{
     color: #d6d6d6;
     font-size: 1.2rem;
-    text-decoration: none;
 }
-
-.category-header ul li a:hover{
+.active-category{
+    color: #ffdb70;
+    font-size: 1.2rem;
+    list-style: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.category-header ul li:hover{
     color: #d6d6d6b3;
     font-size: 1.2rem;
     text-decoration: none;
@@ -29,7 +33,7 @@
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     gap: 1rem;
     padding: 1rem 2rem;
 }
@@ -77,3 +81,4 @@
         cursor: pointer;
     }
 }
+
