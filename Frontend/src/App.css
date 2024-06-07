@@ -3,7 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+:root{
+  --white-1: #fff;
+  --white-2:#fafafa;
+  --black-bg-1: #121212;
+  --black-bg-2: #1E1E1F;
+  --text-secondary: #d6d6d6;
+  --text-secondary-hover: #d6d6d6b3;
+  --fs-1: 32px;
+  --fs-2: 26px;
+  --fs-3: 24px;
+  --fs-4: 18px;
+  --fs-6: 16px;
+  --fs-7: 15px;
+  --fs-8: 12px;
+  --button-bg: #ffdb70;
+}
 body{
   background-color: #121212;
   font-family: 'Poppins', sans-serif;
@@ -14,5 +29,5 @@ body{
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  height: 100vh;
+  padding: 5rem;
 }
