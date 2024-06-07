@@ -1,5 +1,7 @@
+
+
 .Main-Content{
-  width:60%;
+  width:100%;
   height:100%;
   background-color: #1E1E1F;
   display: flex;
@@ -21,5 +23,49 @@ p{
 .Primaryheader{
   display: flex;
   justify-content: start;
+  & h1 {  
+      position: relative;
+      display: inline-block;
+      font-size: 24px; /* Adjust the font size as needed */
+      font-weight: bold;
 
+  }
 }
+.Primaryheader h1::after {
+  content: '';
+  display: block;
+  width: 40px; /* Adjust the width of the border as needed */
+  height: 4px; /* Adjust the height of the border as needed */
+  background-color: #FEC835; /* Adjust the color as needed */
+  margin-top: 4px; /* Adjust the space between text and border as needed */
+}
+
+.secondaryheader{
+  display: flex;
+}
+.Doing-Content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+.Doing-items
+{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  
+  /* border: 0.3px white ; */
+  border-radius: 8px;
+  /* box-shadow: 2px 2px 2px white; */
+  background: linear-gradient( to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100% ), hsl(240, 2%, 13%);
+}
+.Worktitle{
+  display: flex;
+  height: 2.5em;
+}
+
+
+
+
+
