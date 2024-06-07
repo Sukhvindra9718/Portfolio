@@ -1,5 +1,7 @@
 import React from 'react'
 import PortfolioCard from '../Component/PortfolioCard'
+import "../Component/Portfolio.css";
+
 
 const portfolioData = [{
     industry: "Finance",
@@ -32,8 +34,8 @@ const portfolioData = [{
 }]
 function Portfolio() {
     return (
-        <main>
-            <section>
+        <main className='portfolio'>
+            <section className='category-header'>
                 <ul>
                     <li><a href="">All</a></li>
                     <li><a href="">Web design</a></li>

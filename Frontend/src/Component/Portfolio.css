@@ -1,0 +1,28 @@
+.portfolio{
+    width:70vw;
+    height: auto;
+    background-color: #1E1E1F;
+    border-radius: 1rem;
+}
+
+.category-header ul{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+.category-header ul li {
+    list-style: none;
+    cursor: pointer;
+}
+.category-header ul li a{
+    color: #d6d6d6;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.category-header ul li a:hover{
+    color: #d6d6d6b3;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
