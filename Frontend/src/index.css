@@ -22,8 +22,23 @@ p{
 .Primaryheader{
   display: flex;
   justify-content: start;
+  & h1 {  
+      position: relative;
+      display: inline-block;
+      font-size: 24px; /* Adjust the font size as needed */
+      font-weight: bold;
 
+  }
 }
+.Primaryheader h1::after {
+  content: '';
+  display: block;
+  width: 40px; /* Adjust the width of the border as needed */
+  height: 4px; /* Adjust the height of the border as needed */
+  background-color: #FEC835; /* Adjust the color as needed */
+  margin-top: 4px; /* Adjust the space between text and border as needed */
+}
+
 .secondaryheader{
   display: flex;
 }
