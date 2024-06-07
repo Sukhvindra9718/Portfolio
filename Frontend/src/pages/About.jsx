@@ -13,6 +13,7 @@ function About() {
             working in web development and print media. I enjoy turning complex
             problems into simple, beautiful and intuitive designs.
             </p>
+            <br />
             <p>
             My job is to build your website so that it is functional and user-friendly 
             but at the same time attractive. Moreover, I add personal touch to your
@@ -27,7 +28,7 @@ function About() {
         <div className="Doing-Content">
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="./assets/react.svg" alt="Image not found" />
+            <img src="/images/icon-design.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
               <div className="Worktitle">
@@ -38,7 +39,7 @@ function About() {
           </div>
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="./assets/react.svg" alt="Image not found" />
+            <img src="/images/icon-dev.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
             <div className="Worktitle">
@@ -49,7 +50,7 @@ function About() {
           </div>
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="/assets/react.svg" alt="Image not found" />
+            <img src="/images/icon-app.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
             <div className="Worktitle">
@@ -60,7 +61,7 @@ function About() {
           </div>
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="./assets/react.svg" alt="Image not found" />
+            <img src="/images/icon-photo.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
             <div className="Worktitle">
@@ -71,7 +72,7 @@ function About() {
           </div>
         </div>
         <div className="secondaryheader">
-          <h3>Testimonials</h3>
+          <h2>Testimonials</h2>
         </div>
         <div className="testimonial-Content">
 
