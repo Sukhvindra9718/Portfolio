@@ -1,7 +1,8 @@
 .sidebar {
   background-color: #1e1e1f;
   border-radius: 20px;
-
+  position: fixed;
+  left: 20rem;
   height: 80vh;
   width: 15vw;
   padding: 30px;

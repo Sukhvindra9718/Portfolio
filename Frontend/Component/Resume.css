@@ -1,0 +1,74 @@
+.resume-title {
+  display: flex;
+  justify-content: start;
+}
+.resume-title h1 {
+  position: relative;
+  display: inline-block;
+}
+.resume-title h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: #fec835;
+  margin-top: 4px;
+}
+.title-wrapper {
+  margin-bottom: 2.8rem;
+}
+.title-wrapper h3 {
+  font-size: 32px;
+}
+.timeline-container {
+  display: flex;
+  gap: 2rem;
+}
+.timeline-item {
+  height: 10vh;
+}
+
+.timeline-list span {
+  color: #ceb15a;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.timeline-text {
+  color: #d6d6d6;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.dot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.2rem;
+  margin-top: 2rem;
+}
+.outer-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #383838;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.inner-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fec835;
+}
+
+.timeline-line {
+  width: 1px;
+  height: 18rem;
+  background-color: #383838;
+  position: absolute;
+  left: 3.5rem;
+}
