@@ -54,6 +54,9 @@ function Portfolio() {
 
   return (
     <main className="portfolio">
+      <div className="Primaryheader" style={{ paddingLeft: "2rem" }}>
+        <h1>Portfolio</h1>
+      </div>
       <section className="category-header">
         <ul>
           <li
