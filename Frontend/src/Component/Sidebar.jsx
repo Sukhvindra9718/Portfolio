@@ -4,6 +4,10 @@ import { CgMail } from "react-icons/cg";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
 import { IoLocationOutline } from "react-icons/io5";
+import { MdFacebook } from "react-icons/md";
+import { IoLogoTwitter } from "react-icons/io5";
+import { LuInstagram } from "react-icons/lu";
+
 function Sidebar() {
   return (
     <section className="sidebar">
@@ -66,8 +70,27 @@ function Sidebar() {
             </div>
           </li>
         </ul>
+        {/* <div class="seprator"></div> */}
 
-        <div class="seprator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <MdFacebook />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <IoLogoTwitter />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <LuInstagram />
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   );

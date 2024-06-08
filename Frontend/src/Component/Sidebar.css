@@ -117,3 +117,24 @@
 .icon-box ion-icon {
   --ionicon-stroke-width: 35px;
 }
+
+.social-list {
+  display: flex;
+  gap: 15px;
+  padding-left: 7px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+  list-style: none;
+  color: #d6d6d6b3;
+  margin-top: 2.5rem;
+}
+
+.social-item .social-link {
+  color: #d6d6d6b3;
+  font-size: 20px;
+}
+
+.social-link:hover {
+  color: #d6d6d6;
+}
