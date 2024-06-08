@@ -1,9 +1,7 @@
-
-
-.Main-Content{
-  width:100%;
-  height:max-content;
-  background-color: #1E1E1F;
+.Main-Content {
+  width: 100%;
+  height: max-content;
+  background-color: #1e1e1f;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -12,43 +10,45 @@
   border-radius: 20px;
   padding: 2em;
 }
-h1,h2,h3,h4,p,a{
+h1,
+h2,
+h3,
+h4,
+p,
+a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-p{
+p {
   font-size: 15px;
   text-align: start;
 }
-.Primaryheader{
+.Primaryheader {
   display: flex;
   justify-content: start;
-  & h1 {  
-      position: relative;
-      display: inline-block;
-
-
+  & h1 {
+    position: relative;
+    display: inline-block;
   }
 }
 .Primaryheader h1::after {
-  content: '';
+  content: "";
   display: block;
   width: 40px; /* Adjust the width of the border as needed */
   height: 4px; /* Adjust the height of the border as needed */
-  background-color: #FEC835; /* Adjust the color as needed */
+  background-color: #fec835; /* Adjust the color as needed */
   margin-top: 4px; /* Adjust the space between text and border as needed */
 }
 
-.secondaryheader{
+.secondaryheader {
   display: flex;
 }
-.Doing-Content{
+.Doing-Content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 17px;
 }
-.Doing-items
-{
+.Doing-items {
   display: flex;
   align-items: center;
   width: 100%;
@@ -60,21 +60,21 @@ p{
   /* border: 0.3px white ; */
   border-radius: 10px;
   /* box-shadow: 2px 2px 2px white; */
-  background: linear-gradient( to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100% ), hsl(240, 2%, 13%);
+  background: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%),
+    hsl(240, 2%, 13%);
 }
-.Worktitle{
+.Worktitle {
   display: flex;
   height: 2.5em;
 }
-            
-.Doing-text{
+
+.Doing-text {
   padding-top: 1.5rem;
 }
 
-.Work-Icons{
+.Work-Icons {
   margin-right: 1rem;
 }
-.AboutMeText{
+.AboutMeText {
   margin-bottom: 0.5em;
 }
-

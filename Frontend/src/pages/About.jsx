@@ -12,14 +12,15 @@ function About() {
             I'm Creative Director and UI/UX Designer from Sydney, Australia,
             working in web development and print media. I enjoy turning complex
             problems into simple, beautiful and intuitive designs.
-            </p>
-            <br />
-            <p>
-            My job is to build your website so that it is functional and user-friendly 
-            but at the same time attractive. Moreover, I add personal touch to your
-            product and make sure that is eye-catching and easy to use. My aim
-            is to bring across your message and identity in the most creative
-            way. I created web design for many famous brand companies.
+          </p>
+          <br />
+          <p>
+            My job is to build your website so that it is functional and
+            user-friendly but at the same time attractive. Moreover, I add
+            personal touch to your product and make sure that is eye-catching
+            and easy to use. My aim is to bring across your message and identity
+            in the most creative way. I created web design for many famous brand
+            companies.
           </p>
         </div>
         <div className="secondaryheader">
@@ -28,46 +29,58 @@ function About() {
         <div className="Doing-Content">
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="/images/icon-design.svg" alt="Image not found" />
+              <img src="/images/icon-design.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
               <div className="Worktitle">
-              <h4>Web Design</h4>
+                <h4>Web Design</h4>
               </div>
-              <p>The most modern and high-quality design made at a professional level.</p>
+              <p>
+                The most modern and high-quality design made at a professional
+                level.
+              </p>
             </div>
           </div>
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="/images/icon-dev.svg" alt="Image not found" />
+              <img src="/images/icon-dev.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
-            <div className="Worktitle">
-              <h4>Web Design</h4>
+              <div className="Worktitle">
+                <h4>Web Design</h4>
               </div>
-              <p>The most modern and high-quality design made at a professional level.</p>
+              <p>
+                The most modern and high-quality design made at a professional
+                level.
+              </p>
             </div>
           </div>
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="/images/icon-app.svg" alt="Image not found" />
+              <img src="/images/icon-app.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
-            <div className="Worktitle">
-              <h4>Web Design</h4>
+              <div className="Worktitle">
+                <h4>Web Design</h4>
               </div>
-              <p>The most modern and high-quality design made at a professional level.</p>
+              <p>
+                The most modern and high-quality design made at a professional
+                level.
+              </p>
             </div>
           </div>
           <div className="Doing-items">
             <div className="Work-Icons">
-            <img src="/images/icon-photo.svg" alt="Image not found" />
+              <img src="/images/icon-photo.svg" alt="Image not found" />
             </div>
             <div className="Doing-text">
-            <div className="Worktitle">
-              <h4>Web Design</h4>
+              <div className="Worktitle">
+                <h4>Web Design</h4>
               </div>
-              <p>The most modern and high-quality design made at a professional level.</p>
+              <p>
+                The most modern and high-quality design made at a professional
+                level.
+              </p>
             </div>
           </div>
         </div>
@@ -75,12 +88,7 @@ function About() {
           <h2>Testimonials</h2>
         </div>
         <div className="testimonial-Content">
-
-          <div className="testimonial-Details">
-
-
-
-          </div>
+          <div className="testimonial-Details"></div>
         </div>
       </div>
     </main>
